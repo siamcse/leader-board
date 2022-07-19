@@ -78,10 +78,12 @@ hr {
 
 /* Latest course style */
 
+
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 35px;
+    
 }
 .course .course-banner img{
     width: 224px;
@@ -100,4 +102,9 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.course-duration{
+    background-color: #ffc4cd;
+    border-radius: 15px;
+    padding: 5px;
 }
